@@ -21,6 +21,20 @@
 - [Object Storage bucket](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/storage_bucket).
 - [KMS key](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/kms_symmetric_key).
 
+#### Решение
+
+Проверяем, что объект помещен в бакет и добавлен ключ шифрования
+
+![1-1](./1.png)
+
+Файл зашифрован
+
+![1-2](./2.png)
+
+При попытке получить файл без аргументов получаем отказ
+
+![1-3](./3.png)
+
 --- 
 ## Задание 2*. AWS (задание со звёздочкой)
 
